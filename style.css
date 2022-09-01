@@ -263,7 +263,7 @@ header .fa-bars{ /* To style the bars on the right for menu */
   transition: .2s;
 }
 
-.about .row .content button:hover{
+.about .row .content button:hover{  /* To style the button hover inside ABOUT US div */
   letter-spacing: .2rem;
   opacity: .8;
 }
@@ -588,6 +588,9 @@ header .fa-times{    /* To set details of the X that appears when you click menu
   .about .row .image img{
     height:50vh;
     width:70vw;
+    margin: 10px;
+    border-radius: 5%;
+    box-shadow: 0 0 0.7rem 0.6rem rgba(17, 51, 59, 0.3);
   }
 
   .about .row .content{
