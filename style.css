@@ -144,7 +144,7 @@ header .fa-bars{ /* To style the bars on the right for menu */
   height:4rem;
   width:20rem;
   border-radius: 5rem;
-  background:rgb(2, 15, 26);
+  background:rgb(1, 43, 59);
   color:#fff;
   font-size: 1.8rem;
   cursor: pointer;
@@ -266,6 +266,25 @@ header .fa-bars{ /* To style the bars on the right for menu */
 .about .row .content button:hover{  /* To style the button hover inside ABOUT US div */
   letter-spacing: .2rem;
   opacity: .8;
+}
+
+
+.about-content {
+  padding-top: 20px; /* Margin of paragraph from top  */
+}
+
+.skills-bar p {
+  margin-top: 6px; /* Margins of the progress bars */
+  font-weight: 600; /* Weight of the progress bars headings */
+}
+
+.progress-bar {
+  border-radius: 16px; /*To set the border radius inside the progress bars */
+}
+
+.progress{
+  border-radius: 16px !important;
+  margin-bottom: 10px;
 }
 
 /*-------------- Start of teacher section styling --------------*/
@@ -628,6 +647,12 @@ header .fa-times{    /* To set details of the X that appears when you click menu
     display: block;
   }
 
+
+  .home .content button{
+    background:rgb(88, 96, 99);
+  }
+
+
   header .navbar{
     position: fixed;  /* To make the navbar remain fixed when on phone */
     top:-100rem; right:0; 
@@ -717,5 +742,9 @@ header .fa-times{    /* To set details of the X that appears when you click menu
 @media (max-width:500px){
   .course{
     height:130rem;
+  }
+
+  .home .content button{
+    background:rgb(88, 96, 99);
   }
 }
