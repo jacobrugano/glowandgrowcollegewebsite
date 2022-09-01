@@ -817,6 +817,12 @@ header .fa-times{    /* To set details of the X that appears when you click menu
     width:90%;
     padding:0;
   }
+
+  .teacher{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
 }
 @media (max-width:500px){
   .course{
