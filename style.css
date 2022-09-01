@@ -24,7 +24,7 @@ html{
   overflow-x: hidden;
 }
 
-.heading{
+.heading{ /*For styling all the headings in the entire HTML */
   font-size: 4rem;
   color:var(--pink);
   text-align: center;
@@ -34,12 +34,12 @@ html{
   font-weight: 500;
 }
 
-.title{
+.title{  /*For styling all the titles under the headings in the entire HTML */
   padding:0 1rem;
   font-size: 2rem;
   text-align: center;
-  font-weight: 400;
-  color:#aaa;
+  font-weight: 500;
+  color:rgb(128, 126, 126);
 }
 
 header{ /*To style the navbar */
@@ -176,7 +176,7 @@ header .fa-bars{ /* To style the bars on the right for menu */
 }
 
 
-.home .box-container .box i{
+.home .box-container .box i{   /* To style the icons inside the cards */
   height:6rem;
   width:6rem;
   line-height: 6rem;
@@ -189,27 +189,27 @@ header .fa-bars{ /* To style the bars on the right for menu */
   transition: .2s;
 }
 
-.home .box-container .box h3{
+.home .box-container .box h3{ /* To style the heading inside the card */
   font-size: 2rem;
   color:var(--pink);
   transition: .2s;
 }
 
-.home .box-container .box p{
+.home .box-container .box p{ /* To style the paragraph inside the card */
   font-size: 1.3rem;
   padding:.7rem 2rem;
   color:#666;
 }
 
-.home .box-container .box:hover i{
+.home .box-container .box:hover i{ /* To set the hover effect of the icons inside the cards*/
   background:var(--pink);
 }
 
-.home .box-container .box:hover h3{
+.home .box-container .box:hover h3{  /* To set the hover effect on h3 */
   color:var(--violet);
 }
 
-.home::before{
+.home::before{    /* To set the cards appear across the border and the border to be curved */
   content: '';
   position: absolute;
   bottom:-25rem; left:50%;
@@ -220,40 +220,44 @@ header .fa-bars{ /* To style the bars on the right for menu */
   z-index: -1;
 }
 
-.about .row{
+.about .row{ /* To style the entire about us div */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.about .row .image img{
-  height:60vh;
+.about .row .image img{  /* To style the image in the about us div */
+  height:100vh;
   width:40vw;
+  margin-top: 10px;
+  border-radius: 5%;
+  box-shadow: 0 0 0.7rem 0.6rem rgba(17, 51, 59, 0.3);
 }
 
-.about .row .content{
-  padding-left: 5rem;
+.about .row .content{ /* To style the content inside ABOUT US div */
+  padding: 5rem;
 }
 
-.about .row .content h3{
+.about .row .content h3{  /* To style the H3 inside ABOUT US div */
   font-size: 3rem;
   color:var(--pink);
 }
 
-.about .row .content p{
+.about .row .content p{  /* To style the paragraph inside ABOUT US div */
   font-size: 1.6rem;
-  color:#999;
-  padding:1rem 0;
+  color:rgb(134, 134, 134);
+  padding:2rem 0;
+  font-weight: 400;
 }
 
-.about .row .content button{
+.about .row .content button{  /* To style the button inside ABOUT US div */
   height:3.5rem;
   width:17rem;
   background:var(--violet);
   color:#fff;
   border:none;
   border-radius: 5rem;
-  box-shadow: 0 .3rem 1rem rgba(0,0,0,.3);
+  box-shadow: 0 .8rem 1rem rgba(0,0,0,.3);
   cursor: pointer;
   font-size: 2rem;
   transition: .2s;
@@ -569,11 +573,11 @@ header .fa-times{    /* To set details of the X that appears when you click menu
     opacity: 1;  /* To set the opacity of the navbar box when clicked on phone */
   }
 
-  .home .content p{
+  .home .content p{ /* To style the card content on phone*/
     padding:1.5rem 2rem;
   }
 
-  .home::before{
+  .home::before{   /* To make the curve disappear when on phone */
     display: none;
   }
 
