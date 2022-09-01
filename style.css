@@ -581,11 +581,13 @@ header .fa-times{    /* To set details of the X that appears when you click menu
     display: none;
   }
 
-  .about .row{
+  .about .row{ /* To set the flow of the about us row view.
+                 1) To be in column instead of organized in a row.
+                 2) To be in reverse so that image can come on top then the paragraph */
     flex-flow: column-reverse;
   }
 
-  .about .row .image img{
+  .about .row .image img{ /* To style the image when on mobile */
     height:50vh;
     width:70vw;
     margin: 10px;
@@ -596,8 +598,8 @@ header .fa-times{    /* To set details of the X that appears when you click menu
     margin-bottom: 25px;
   }
 
-  .about .row .content{
-    padding:0 2.5rem;
+  .about .row .content{  /* To style the content when on mobile */
+    padding: 0 6.5rem;
   }
 
   .course .box-container{
