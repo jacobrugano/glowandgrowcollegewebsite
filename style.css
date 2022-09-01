@@ -144,7 +144,7 @@ header .fa-bars{ /* To style the bars on the right for menu */
   height:4rem;
   width:20rem;
   border-radius: 5rem;
-  background:var(--pink);
+  background:rgb(2, 15, 26);
   color:#fff;
   font-size: 1.8rem;
   cursor: pointer;
