@@ -268,8 +268,10 @@ header .fa-bars{ /* To style the bars on the right for menu */
   opacity: .8;
 }
 
+/*-------------- Start of teacher section styling --------------*/
 .teacher{
   background:#f9f9f9;
+  /* background:linear-gradient(rgba(2, 1, 1, 0.8),rgba(20, 0, 4, 0.8)), url(images/ship3.jpg) no-repeat; */
   background:linear-gradient(rgba(2, 1, 1, 0.8),rgba(20, 0, 4, 0.8)), url(images/ship3.jpg) no-repeat;
   background-size: cover;
   background-position: center;
@@ -299,7 +301,7 @@ header .fa-bars{ /* To style the bars on the right for menu */
   background:rgb(206, 205, 205);
   text-align: center;
   width:28rem;
-  box-shadow: 0 0 .7rem .5rem rgba(136, 135, 135, 0.3);
+  /* box-shadow: 0 0 .7rem .5rem rgba(136, 135, 135, 0.3); */
   border-radius: 1rem;
 }
 
@@ -335,6 +337,52 @@ header .fa-bars{ /* To style the bars on the right for menu */
 .teacher .card-container .card .icons a:hover{
   color:var(--violet);
 }
+
+
+
+/*--------To design the content paragrapgh inside the card--------*/
+/* .price-content {
+  display: inline;
+  float: left;
+  width: 100%;
+  padding: 0 15px;
+  margin: 5px;
+} */
+
+.teacher .card-container ul li {
+  list-style: none; /* To remove the dots behind the list brought in by ul and li */
+  display: row; /* To align the items in the navbar  in a line from left to right */
+  margin-left: 10px; /* To create the spaces between the words in the navbar*/
+  font-size: 1.6rem;
+  float: left;
+  margin: 2px;
+}
+
+.card ul li {
+  border-bottom: 1px solid #b9b9b9; /* To create a line under each wording, its width, solid and its color */
+  padding: 5px 5px; /*To determine the padding between the wording inside the paragraph in the card */
+  list-style: none; /*To rremove the dot dots brought by ul li listing */
+}
+
+ul li:last-child {
+  border: none;
+}
+
+/*--------To design the icons in the card-------------------*/
+.fa-check-square{  /*Pick the icon by the bootstrap class name */
+  color: green; /*Color of the icon*/
+  margin-right: 10px; /* To set the margin between the icons and the words */
+  font-size: 20px; /*To set the size of the icons */
+}
+
+.fa-times-circle {
+  color: rgb(148, 16, 16); /*Color of the icon*/
+  margin-right: 10px; /* To set the margin between the icons and the words */
+  font-size: 20px; /*To set the size of the icons */
+
+}
+
+/*-------------- End of teacher section styling --------------*/
 
 .course{
 background-color: rgb(228, 227, 227);
